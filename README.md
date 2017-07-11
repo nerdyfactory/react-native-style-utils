@@ -3,6 +3,32 @@ Stylesheet utility library for react native
 
 react-native-style-utils is a very simple utility for creating stylesheet.
 
+Using this package, you can change code
+from
+```js
+const styles = StyleSheet.create({
+  alignCenter: {
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+});
+```
+```jsx
+<View style={styles.alignCenter}>
+  <Text> some text</Text>
+</View>
+```
+
+to
+```js
+import S from 'react-native-style-utils';
+```
+```jsx
+<View style={S.alignCenter}>
+  <Text> some text</Text>
+</View>
+```
+
 ## Installation
 ```
 $ npm install --save react-native-style-utils
