@@ -1,5 +1,5 @@
 {
-  "name": "react-native-styles",
+  "name": "react-native-style-utils",
   "version": "0.0.1",
   "description": "Stylesheet utility library for react native",
   "main": "index.js",
@@ -8,21 +8,22 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nerdyfactory/react-native-styles.git"
+    "url": "git+https://github.com/nerdyfactory/react-native-style-utils.git"
   },
   "keywords": [
     "react",
     "react-native",
     "stylesheet",
     "styles",
-    "react-native-styles"
+    "utils",
+    "react-native-style-utils"
   ],
   "author": "JongHun Yu <jonghun.yu@nerdyfactory.com> (https://nerdyfactory.com)",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/nerdyfactory/react-native-styles/issues"
+    "url": "https://github.com/nerdyfactory/react-native-style-utils/issues"
   },
-  "homepage": "https://github.com/nerdyfactory/react-native-styles",
+  "homepage": "https://github.com/nerdyfactory/react-native-style-utils",
   "devDependencies": {
   }
 }

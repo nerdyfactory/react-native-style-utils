@@ -12,7 +12,7 @@ import {
   Dimensions,
   View
 } from 'react-native';
-import S from 'react-native-styles';
+import S from 'react-native-style-utils';
 var {height, width} = Dimensions.get('window');
 
 export default class example extends Component {

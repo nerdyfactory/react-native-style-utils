@@ -1,17 +1,17 @@
-# react-native-styles
+# react-native-style-utils
 Stylesheet utility library for react native
 
-react-native-styles is a very simple utility for creating stylesheet.
+react-native-style-utils is a very simple utility for creating stylesheet.
 
 ## Installation
 ```
-$ npm install --save react-native-styles
+$ npm install --save react-native-style-utils
 ```
 
 ## Usage
 
 ```js
-import S from 'react-native-styles';
+import S from 'react-native-style-utils';
 ```
 
 you can use this when you create style sheet
@@ -31,7 +31,7 @@ or import styles directly
   </View>
 ```
 
-Refer to [source code](https://github.com/nerdyfactory/react-native-styles/blob/master/lib/index.js) for predefined styles available.
+Refer to [source code](https://github.com/nerdyfactory/react-native-style-utils/blob/master/lib/index.js) for predefined styles available.
 
 Any suggestions on new style definition are appreciated.
 
