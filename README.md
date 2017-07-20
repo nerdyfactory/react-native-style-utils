@@ -36,6 +36,7 @@ $ npm install --save react-native-style-utils
 
 ## Usage
 
+#### Predefined styles
 ```js
 import S from 'react-native-style-utils';
 ```
@@ -56,6 +57,25 @@ or import styles directly
     <Text> This is aligned with flex-start and center</Text>
   </View>
 ```
+
+#### Custom style
+after setting style
+```js
+S.setStyle('box', {
+  margin: 10,
+  backgroundColor: '#ffffff',
+  borderWidth: 1,
+  height: 30,
+});
+```
+
+then you can use it like
+```jsx
+  <View style={[S.alignStartCenter, S.box]}>
+    <Text> This is aligned with flex-start and center</Text>
+  </View>
+```
+
 
 Refer to [source code](https://github.com/nerdyfactory/react-native-style-utils/blob/master/lib/index.js) for predefined styles available.
 
