@@ -59,6 +59,10 @@ or import styles directly
 ```
 
 #### Custom style
+PLEASE NOTE THAT CUSTOM STYLES MUST BE USED ONLY IN RENDER METHOD
+
+otherwise custom styles returns undefined sometimes because the getters of styles can be executed before they are defined.
+
 after setting style
 ```js
 S.setStyle('box', {
