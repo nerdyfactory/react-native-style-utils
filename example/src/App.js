@@ -4,6 +4,7 @@
  * @flow
  */
 
+console.log("start main")
 import React, { Component } from 'react';
 import {
   AppRegistry,
@@ -13,7 +14,7 @@ import {
   View
 } from 'react-native';
 import S from 'react-native-style-utils';
-import AnotherComponent from './AnotherComponent.js';
+import AnotherComponent from './AnotherComponent';
 var {height, width} = Dimensions.get('window');
 
 S.setStyle('customStyle', {
@@ -27,6 +28,8 @@ S.setStyle('box', {
   borderWidth: 1,
   height: 30,
 });
+console.log("main");
+console.log(S.customStyle);
 
 export default class example extends Component {
   render() {
@@ -59,3 +62,4 @@ const styles = StyleSheet.create({
 });
 
 AppRegistry.registerComponent('example', () => example);
+console.log("end main")
